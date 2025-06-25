@@ -1,4 +1,4 @@
-<div class="border-t-2 border-[#86B696] py-6 w-full h-44 mt-12 bg-gray-200 ">
+<div class="border-t-2 border-[#86B696] py-6 w-full h-full mt-12 bg-gray-200 px-4">
         <div class="flex sm:flex-row flex-col items-center overflow overflow-auto sm:gap-32 gap-4 max-w-6xl mx-auto">
             <div class="w-full sm:w-10/12 ">
                 <h1>Co-creators</h1>

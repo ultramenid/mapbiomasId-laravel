@@ -1,4 +1,4 @@
-<div class="max-w-6xl mx-auto flex items-center justify-between py-8">
+<div class="max-w-6xl mx-auto flex items-center justify-between py-8 px-4">
     <div x-data="{ open: false }" class="relative">
         <svg @click="open = !open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-500 cursor-pointer">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
@@ -12,10 +12,15 @@
 
         </div> --}}
     </div>
-    <img src="assets/logo mapbiomas.png" alt="Mapbiomas Indonesia" class="h-20">
-    <div class="flex gap-1">
+    <img src="assets/logo mapbiomas.png" alt="Mapbiomas Indonesia" class="sm:h-20 h-10">
+    <div class="sm:flex gap-1 hidden">
         <a href="{{ route(Route::currentRouteName(), 'id') }}" class="text-sm @if(App::getLocale() == 'id') font-semibold @else font-light text-gray-500 @endif">Indonesia</a>
         <a href="#" class="">|</a>
         <a href="{{ route(Route::currentRouteName(), 'en') }}" class="text-sm @if(App::getLocale() == 'en') font-semibold @else font-light text-gray-500 @endif">English</a>
+    </div>
+    <div class="sm:hidden gap-1 flex">
+        <a href="{{ route(Route::currentRouteName(), 'id') }}" class="text-sm @if(App::getLocale() == 'id') font-semibold @else font-light text-gray-500 @endif">ID</a>
+        <a href="#" class="">|</a>
+        <a href="{{ route(Route::currentRouteName(), 'en') }}" class="text-sm @if(App::getLocale() == 'en') font-semibold @else font-light text-gray-500 @endif">EN</a>
     </div>
 </div>
