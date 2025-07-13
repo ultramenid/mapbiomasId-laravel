@@ -12,13 +12,13 @@
         x-transition:leave="transition ease-in duration-50"
         x-transition:leave-start="opacity-100 scale-100"
         x-transition:leave-end="opacity-0 scale-95">
-            <a href="#" class="block px-4 py-1 text-gray-800 hover:bg-gray-100">{{__('About') }}</a>
-            <a href="#" class="block px-4 py-1 text-gray-800 hover:bg-gray-100">{{__('Team') }}</a>
-            <a href="#" class="block px-4 py-1 text-gray-800 hover:bg-gray-100">{{__('FAQ') }}</a>
+            <a href="{{ route('about', [app()->getLocale()]) }}" class="block px-4 py-1 text-gray-800 hover:bg-gray-100">{{__('About') }}</a>
+            <a href="{{ route('team', [app()->getLocale()]) }}" class="block px-4 py-1 text-gray-800 hover:bg-gray-100">{{__('Team') }}</a>
+            <a href="{{ route('faq', [app()->getLocale()]) }}" class="block px-4 py-1 text-gray-800 hover:bg-gray-100">{{__('FAQ') }}</a>
 
         </div>
     </div>
-    <img src="assets/logo mapbiomas.png" alt="Mapbiomas Indonesia" class="sm:h-20 h-10 select-none">
+    <a href="{{ route('index', [app()->getLocale()]) }}"><img src="{{ asset('assets/logo mapbiomas.png') }}" alt="Mapbiomas Indonesia" class="sm:h-20 h-10 select-none"></a>
     <div class="sm:flex gap-1 hidden">
         <a href="{{ route(Route::currentRouteName(), 'id') }}" class="text-sm @if(App::getLocale() == 'id') font-semibold @else font-light text-gray-500 @endif">Indonesia</a>
         <a href="#" class="">|</a>
