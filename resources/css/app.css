@@ -53,3 +53,7 @@ a:link {
   color: #E17367;
 }
 
+
+a:link {
+  text-decoration: none;
+}
