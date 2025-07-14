@@ -17,7 +17,8 @@ Route::middleware([setLanguange::class])->group(function () {
     Route::group(['prefix' => '{lang}'], function () {
         Route::get('/', [IndexController::class, 'index'])->name('index');
         Route::get('/about', [PagesController::class, 'about'])->name('about');
-        Route::get('/team', [TeamController::class, 'index'])->name('team');
+        Route::get('/team-technic', [TeamController::class, 'index'])->name('team-technic');
+        Route::get('/team-scientific', [TeamController::class, 'scientific'])->name('team-scientific');
         Route::get('/faq', [FaqController::class, 'listFaq'])->name('faq');
 
     });

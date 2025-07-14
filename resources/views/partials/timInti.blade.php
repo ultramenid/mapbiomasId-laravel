@@ -100,7 +100,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Yustinus Seno" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/EBR07454_1.png') }}" alt="Yustinus Seno" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Yustinus Seno</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -119,7 +119,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="M Alichamdan" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/EBR07464_1.png') }}" alt="M Alichamdan" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">M. Alichamdan</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -138,7 +138,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Cecilinia Tika Laura" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/EBR07456_1.png') }}" alt="Cecilinia Tika Laura" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Cecilinia Tika Laura</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -195,7 +195,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="M Dendy Alfitrah" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/EBR07460_1.png') }}" alt="M Dendy Alfitrah" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">M Dendy Alfitrah</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -215,7 +215,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Wahyu Ananta Nugraha" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/EBR07467_1.png') }}" alt="Wahyu Ananta Nugraha" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Wahyu Ananta N.</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -255,7 +255,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Jumrio Nakul" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/EBR07451_1.png') }}" alt="Jumrio Nakul" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Jumrio Nakul</h3>
         <div class="flex flex-col gap-2 mt-3">

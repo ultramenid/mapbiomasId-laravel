@@ -11,4 +11,9 @@ class TeamController extends Controller
         $description = 'Learning from the past for the future';
         return view('frontends.team', compact('title', 'description'));
     }
+    public function scientific(){
+        $title = 'MapBiomas Indonesia - Team';
+        $description = 'Learning from the past for the future';
+        return view('frontends.team-scientific', compact('title', 'description'));
+    }
 }

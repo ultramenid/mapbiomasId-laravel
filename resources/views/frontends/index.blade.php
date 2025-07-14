@@ -14,7 +14,7 @@
         <div class="flex justify-between sm:flex-row flex-col gap-10 mt-3">
             <div class="flex flex-col  sm:w-[27%] w-full">
                 <div>
-                    <img src="assets/landy.jpeg" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
+                    <img src="{{ asset('assets/landy.jpeg') }}" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
 
                 </div>
                 <a class="font-light text-sm mt-4">{{__('Agustus') }} 2024</a>
@@ -23,7 +23,7 @@
             </div>
             <div class="flex flex-col sm:w-[27%] w-full">
                 <div>
-                    <img src="assets/fire-launching.jpeg" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
+                    <img src="{{ asset('assets/fire-launching.jpeg') }}" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
 
                 </div>
                 <a class="font-light text-sm mt-4">{{__('Agustus') }} 2024</a>
@@ -56,21 +56,21 @@
         <div class="flex sm:flex-row  justify-between flex-col gap-10 mt-3">
             <div class="flex flex-col sm:w-[27%] w-full items-center">
                 <a href="https://landy.mapbiomas.id" target="_blank">
-                    <img src="assets/logo landy.png" alt="Mapbiomas Indonesia" class="h-12">
+                    <img src="{{ asset('assets/logo landy.png') }}" alt="Mapbiomas Indonesia" class="h-12">
 
                 </a>
                 <p class=" mt-4 text-sm text-center font-light">{{__('Menampilkan dinamika tutupan lahan Indonesia. Statistik, peta, hingga transisi tutupan, pun penampalannya dengan tematik penguasaan lahan tersedia di platform ini.') }}</p>
             </div>
             <div class="flex flex-col sm:w-[27%] w-full items-center">
                 <a href="https://fire.mapbiomas.id/id" target="_blank">
-                    <img src="assets/logo-fire.png" alt="Mapbiomas Indonesia" class="h-12">
+                    <img src="{{ asset('assets/logo-fire.png') }}" alt="Mapbiomas Indonesia" class="h-12">
 
                 </a>
                 <p class=" mt-4 text-sm text-center font-light">{{__('Menyajikan data dan peta area terbakar di Indonesia melalui pemaksimalkan Google Earth Engine dan pendekatan deep learning terhadap citra satelit yang terbuka bagi publik.') }}</p>
             </div>
             <div class="flex flex-col sm:w-[27%] w-full items-center">
                 <div>
-                    <img src="assets/logo-alerta.png" alt="Mapbiomas Indonesia" class="h-12">
+                    <img src="{{ asset('assets/logo-alerta.png') }}" alt="Mapbiomas Indonesia" class="h-12">
 
                 </div>
                 <p class=" mt-4 text-sm text-center font-light">{{__('Setiap alert deforestasi diverifikasi, lalu divalidasi citra satelit resolusi tinggi terkini, sehingga tersaji data dan peta deforestasi aktual.') }}</p>
