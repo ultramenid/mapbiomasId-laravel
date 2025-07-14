@@ -13,6 +13,9 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+p a:link {
+  color: #E17367;
+}
 
 .text-mapbiomasid{
     color: #86B696;
@@ -50,10 +53,14 @@
 }
 
 a:link {
-  color: #E17367;
-}
-
-
-a:link {
+  /* color: #E17367; */ /* Remove or comment this out */
   text-decoration: none;
 }
+
+/* Add this more specific rule at the end of your file */
+p a:link, p a:visited, p a:hover, p a:active {
+  color: #E17367 !important;
+}
+
+
+
