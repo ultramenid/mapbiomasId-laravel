@@ -18,12 +18,15 @@
         <div class="flex flex-wrap justify-between gap-2 mt-4 px-4">
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start items-center  gap-6 mt-12 sm:w-[48%] w-full">
-                <img
-                src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Prof. Projo Danoedoro"
-                class="w-52 h-52 object-cover rounded-full"
-                />
-                <div>
+                <div class="w-52  h-52 ">
+                    <img
+                    src="{{ asset('assets/tim/Prof. Projo Danoedoro 1.png') }}"
+                    alt="Prof. Projo Danoedoro"
+                    class="w-full h-full object-cover object-top  rounded-full bg-tim"
+                    />
+                </div>
+
+                <div class="sm:w-6/12 w-full">
                 <h3 class="font-semibold text-sm uppercase">Prof. Projo Danoedoro</h3>
                 <p class="text-gray-700 text-sm leading-relaxed mt-1 font-light">
                     Guru besar penginderaan jauh Fakultas Geografi Universitas Gadjah Mada ini aktif melakukan riset dan publikasi tulisan akademik mengenai pemetaan tutupan lahan Indonesia. Dapat dikontak melalui surat elektronik projo.danoedoro@geo.ugm.ac.id dan pdanoedoro@ugm.ac.id.
@@ -32,12 +35,14 @@
             </div>
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start  items-center gap-6  mt-12 sm:w-[48%] w-full">
-                <img
-                src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Dr. Arief Darmawan."
-                class="w-52 h-52 object-cover rounded-full"
-                />
-                <div>
+                <div class="w-52  h-52">
+                    <img
+                    src="{{ asset('assets/tim/Arif Dermawan 1.png') }}"
+                    alt="Prof. Projo Danoedoro"
+                    class="w-full h-full object-cover object-top  rounded-full bg-tim"
+                    />
+                </div>
+                <div class="sm:w-6/12 w-full">
                 <h3 class="font-semibold text-sm uppercase">Dr. Arief Darmawan</h3>
                 <p class="text-gray-700 text-sm leading-relaxed mt-1 font-light">
                     Dosen Jurusan Kehutanan Fakultas Pertanian Universitas Lampung ini beroleh gelar doktor dari The University of Tokyo. Dapat dikontak melalui surat elektronik arief.darmawan@gmail.com.
@@ -46,12 +51,15 @@
             </div>
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start  items-center gap-6  mt-12 sm:w-[48%] w-full">
-                <img
-                src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Dr. Nur Hygiawati Rahayu."
-                class="w-52 h-52 object-cover rounded-full"
-                />
-                <div>
+                <div class="w-52  h-52">
+                    <img
+                    src="{{ asset('assets/tim/Dr. Nur Hygiawati Rahayu.png') }}"
+                    alt="Prof. Projo Danoedoro"
+                    class="w-full h-full object-cover object-top  rounded-full bg-tim"
+                    />
+                </div>
+
+                <div class="sm:w-6/12 w-full">
                 <h3 class="font-semibold text-sm uppercase">Dr. Nur Hygiawati Rahayu</h3>
                 <p class="text-gray-700 text-sm leading-relaxed mt-1 font-light">
                     Pejabat struktural di BAPPENAS/Kementerian Perencanaan Pembangunan Nasional. Memperoleh gelar doktor dari University of Queensland. Dapat dikontak melalui surat elektronik nur.hrahayu@bappenas.go.id.</a>
@@ -74,12 +82,15 @@
             </div>
              <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start  items-center gap-6  mt-12 sm:w-[48%] w-full">
-                <img
-                src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Francina Frenshegty Kesaulija."
-                class="w-52 h-52 object-cover rounded-full"
-                />
-                <div>
+                <div class="w-52  h-52">
+                    <img
+                    src="{{ asset('assets/tim/Francina Frenshegty Kesaulija.png') }}"
+                    alt="Prof. Projo Danoedoro"
+                    class="w-full h-full object-cover object-top  rounded-full bg-tim"
+                    />
+                </div>
+
+                <div class="sm:w-6/12 w-full">
                 <h3 class="font-semibold text-sm uppercase text-nowrap">Francina Frenshegty Kesaulija</h3>
                 <p class="text-gray-700 text-sm leading-relaxed mt-1 font-light">
                     Dosen Fakultas Kehutanan Universitas Papua ini memperoleh gelar master dari Australian National University. Dapat dikontak melalui surat elektronik f.kesaulija@unipa.ac.id.</a>.
