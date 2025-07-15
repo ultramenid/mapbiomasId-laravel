@@ -15,9 +15,9 @@
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start items-center  gap-6 mt-12 sm:w-[48%] w-full">
                 <img
-                src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3"
+                src="{{ asset('assets/tim/TimerManurung.png') }}"
                 alt="TIMER MANURUNG"
-                class="w-52 h-52 object-cover rounded-full"
+                class="w-52 h-52 object-cover rounded-full bg-tim"
                 />
                 <div>
                 <h3 class="font-semibold text-sm uppercase">TIMER MANURUNG (Koordinator Umum)</h3>
