@@ -8,9 +8,10 @@
     @include('partials.topbar')
     <div class="max-w-5xl mx-auto px-4">
 
-
-        <h1 class="font-semibold mt-24">TIM TEKNIS</h1>
-        <h2 class="mt-6 font-semibold">Koordinator</h2>
+        <div class="w-full justify-center items-center">
+            <h1 class="font-bold mt-24 sm:text-3xl text-2xl text-center ">TIM TEKNIS</h1>
+        </div>
+        <h2 class="mt-2 font-semibold text-2xl text-center">Koordinator</h2>
         <div class="flex flex-wrap justify-between gap-2 px-4">
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start items-center  gap-6 mt-12 sm:w-[48%] w-full">
@@ -38,9 +39,9 @@
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start  items-center gap-6  mt-12 sm:w-[48%] w-full">
                 <img
-                src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3"
+                src="{{ asset('assets/tim/dd.png') }}"
                 alt="DEDY SUKMARA "
-                class="w-52 h-52 object-cover rounded-full"
+                class="w-52 h-52 object-cover rounded-full bg-tim object-top"
                 />
                 <div>
                 <h3 class="font-semibold text-sm uppercase">DEDY SUKMARA <br> (Koordinator Teknis)</h3>
@@ -84,10 +85,10 @@
 
         </div>
 
-        <h2 class="mt-12 font-semibold">Tim Inti</h2>
+        <h2 class="mt-12 font-semibold text-2xl text-center">Tim Inti</h2>
         @include('partials.timInti')
 
-        <h2 class="mt-24 font-semibold">Tim Regio</h2>
+        <h2 class="mt-24 font-semibold text-2xl text-center">Tim Regio</h2>
         @include('partials.timRegio')
 
     </div>

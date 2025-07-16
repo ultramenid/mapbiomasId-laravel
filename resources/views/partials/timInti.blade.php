@@ -1,7 +1,7 @@
 <div class="flex flex-wrap justify-between gap-2 px-4">
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Ananta Erlangga" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/erlangga.png') }}" alt="Ananta Erlangga" class="w-32 h-32 object-cover object-top bg-tim rounded-full" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Ananta Erlangga</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -20,7 +20,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Reza Widyananto" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/rz.png') }}" alt="Reza Widyananto" class="w-32 h-32 object-cover object-top bg-tim rounded-full" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Reza Widyananto</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -40,7 +40,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Andhika Jounastya" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/dika.png') }}" alt="Andhika Jounastya" class="w-32 h-32 object-cover object-top bg-tim rounded-full" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Andhika Jounastya</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -62,7 +62,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Adhitya Adhyaksa" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/adhit.png') }}" alt="Adhitya Adhyaksa" class="w-32 h-32 object-cover bg-tim object-top rounded-full" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Adhitya Adhyaksa</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -157,7 +157,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Bagus Sugiarto" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/bagus.png') }}" alt="Bagus Sugiarto" class="w-32 h-32 object-cover object-top bg-tim rounded-full" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Bagus Sugiarto</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -176,7 +176,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sesilia Maharani Putri" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/sesil.png') }}" alt="Sesilia Maharani Putri" class="w-32 h-32 object-cover rounded-full bg-tim object-top" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Sesilia Maharani Putri</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -235,9 +235,9 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Anggun Detrina N" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/anggun.png') }}" alt="Anggun Detrina N" class="w-32 h-32 object-cover object-top bg-tim rounded-full" />
         <div>
-        <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Anggun Detrina N.</h3>
+        <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Anggun D. Napitupulu</h3>
         <div class="flex flex-col gap-2 mt-3">
             <div class="flex gap-2">
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
@@ -275,7 +275,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Robby" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/robby.png') }}" alt="Robby" class="w-32 h-32 object-cover rounded-full bg-tim object-top" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Robby</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -295,7 +295,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Akhmad Kamaluddin" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/kamal.png') }}" alt="Akhmad Kamaluddin" class="w-32 h-32 object-cover rounded-full bg-tim object-top" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Akhmad Kamaluddin</h3>
         <div class="flex flex-col gap-2 mt-3">

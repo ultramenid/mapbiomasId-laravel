@@ -77,7 +77,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="ARIE FERDIAN" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/Arie Fardian.png') }}" alt="ARIE FERDIAN" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">ARIE FERDIAN <br> (Kalimantan)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -115,28 +115,11 @@
     </div>
 
 
-    <!-- Card 1 -->
-    <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="SABATHA RUMADAS" class="w-32 h-32 object-cover rounded-full" />
-        <div>
-        <h3 class="font-semibold text-sm uppercase">SABATHA RUMADAS <br> (Papua)</h3>
-        <div class="flex flex-col gap-2 mt-3">
-            <div class="flex gap-2">
-                <a  class="h-4 w-4 rounded-full border border-landy"></a>
-                <a  class="h-4 w-4 rounded-full border border-landy"></a>
-                <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
 
-            </div>
-            <div class="flex gap-2">
-                <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
-            </div>
-        </div>
-        </div>
-    </div>
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Muhammad Habibi" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/habibi.png') }}" alt="Muhammad Habibi" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Muhammad Habibi <br> (Kalimantan)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -379,7 +362,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Hendrikus Randongkir" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/hendrik.png') }}" alt="Hendrikus Randongkir" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase text-nowrap">Hendrikus Randongkir <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -399,7 +382,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sabatha Rumadas" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/BATA.png') }}" alt="Sabatha Rumadas" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase text-nowrap">Sabatha Rumadas <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -415,6 +398,11 @@
             </div>
         </div>
         </div>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
+
     </div>
 
 
