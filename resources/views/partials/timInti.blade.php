@@ -195,9 +195,9 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/EBR07460_1.png') }}" alt="M Dendy Alfitrah" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/EBR07460_1.png') }}" alt="M Dendi Alfitrah" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
-        <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">M Dendy Alfitrah</h3>
+        <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">M Dendi Alfitrah</h3>
         <div class="flex flex-col gap-2 mt-3">
             <div class="flex gap-2">
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
