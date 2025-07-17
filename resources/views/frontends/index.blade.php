@@ -23,12 +23,20 @@
             </div>
             <div class="flex flex-col sm:w-[27%] w-full">
                 <div>
-                    <img src="{{ asset('assets/fire-launching.jpeg') }}" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
+                    <img src="https://fire.mapbiomas.id/storage/files/photos/8AwhOdHFHoi2me7mkeDxtHTcXnUzQauMhh4EAVlT.jpg" alt="Mapbiomas Fire" class="h-44 w-full object-cover object-center">
 
                 </div>
-                <a class="font-light text-sm mt-4">{{__('Agustus') }} 2024</a>
-            <a href="#" class="font-bold">{{__('Launching MapBiomas Indonesia | FIRE 1.0') }}</a>
-                <p class="mt-3 font-light text-sm">{{__('Berupa data dan peta area terbakar di Indonesia sepanjang 2013-2023, yang dilengkapi analisis per kelas tutupan lahan yang terdapat pada MapBiomas Landy 2.0.') }}</p>
+                <a class="font-light text-sm mt-4">April 2024</a>
+                @if (app()->getLocale() == 'id')
+                    <a href="https://fire.mapbiomas.id/id/news/2/pelatihan-lanjutan-pemetaan-lahan-terbakar-di-ipam-brasilia" class="font-bold">Pelatihan Lanjutan Pemetaan Lahan Terbakar di IPAM Brasilia</a>
+                    <p class="mt-3 font-light text-sm">Pengetahuan yang diperoleh melalui pelatihan ini akan dikembangkan MapBiomas Indonesia membangun MapBiomas Indonesia | FIRE yang direncanakan rilis pada kuartal ketiga atau keempat 2024.</p>
+
+                @else
+                    <a href="https://fire.mapbiomas.id/en/news/2/pelatihan-lanjutan-pemetaan-lahan-terbakar-di-ipam-brasilia" class="font-bold">Advanced Training in Burnt Land Mapping with IPAM in Brasilia</a>
+                    <p class="mt-3 font-light text-sm">MapBiomas Indonesia will apply knowledge secured through this training to develop MapBiomas Indonesia | FIRE, which is planned for release in the third or fourth quarter of 2024</p>
+
+                 @endif
+
             </div>
             <div class="flex flex-col sm:w-[27%] w-full">
                 <div>

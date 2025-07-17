@@ -20,7 +20,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Khairul Amri" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/amri.png') }}" alt="Khairul Amri" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Khairul Amri <br> (Sumatera)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -278,9 +278,9 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/EBR07436_1.png') }}" alt="Adrianus Anti Rambu" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/EBR07436_1.png') }}" alt="Adrianus Anto Rambu" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
-        <h3 class="font-semibold text-sm uppercase">Adrianus Anti R. <br> (Papua)</h3>
+        <h3 class="font-semibold text-sm uppercase">Adrianus Anto R. <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
             <div class="flex gap-2">
 
@@ -318,26 +318,7 @@
         </div>
     </div>
 
-    <!-- Card 1 -->
-    <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Septer Manufandu" class="w-32 h-32 object-cover rounded-full" />
-        <div>
-        <h3 class="font-semibold text-sm uppercase">Septer Manufandu <br> (Papua)</h3>
-        <div class="flex flex-col gap-2 mt-3">
-            <div class="flex gap-2">
 
-                <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
-                <a class="h-4 w-4 rounded-full border border-landy"></a>
-                <a  class="h-4 w-4 rounded-full border border-landy"></a>
-
-            </div>
-            <div class="flex gap-2">
-                <a  class="h-4 w-4 rounded-full border border-fire"></a>
-
-            </div>
-        </div>
-        </div>
-    </div>
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
