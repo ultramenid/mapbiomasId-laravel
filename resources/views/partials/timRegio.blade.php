@@ -88,7 +88,7 @@
 
             </div>
             <div class="flex gap-2">
-                <a class="h-4 w-4 rounded-full border border-fire"></a>
+                <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
             </div>
         </div>
 
