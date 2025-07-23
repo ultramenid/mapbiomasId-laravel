@@ -1,5 +1,5 @@
 <div class="flex flex-wrap justify-between gap-2 px-4">
-    <!-- Card 1 -->
+    {{-- <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
         <img src="{{ asset('assets/tim/erlangga.png') }}" alt="Ananta Erlangga" class="w-32 h-32 object-cover object-top bg-tim rounded-full" />
         <div>
@@ -16,7 +16,7 @@
         </div>
 
         </div>
-    </div>
+    </div> --}}
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
@@ -81,7 +81,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Willy Pratama" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/Willy.png') }}" alt="Willy Pratama" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Willy Pratama</h3>
         <div class="flex flex-col gap-2 mt-3">
