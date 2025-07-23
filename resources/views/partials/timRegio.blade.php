@@ -58,7 +58,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="IVANNALIS SAPUTRA" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/IvanNalis.png') }}" alt="IVANNALIS SAPUTRA" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">IVANNALIS SAPUTRA <br> (Kalimantan)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -95,7 +95,7 @@
         </div>
     </div>
 
-     <!-- Card 1 -->
+     {{-- <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
         <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Theodorus Fied Herlando" class="w-32 h-32 object-cover rounded-full" />
         <div>
@@ -112,7 +112,7 @@
         </div>
 
         </div>
-    </div>
+    </div> --}}
 
 
 
@@ -180,7 +180,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Berlian Pratama " class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/Berlian.png') }}" alt="Berlian Pratama " class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Berlian Pratama  <br> (Sumatera)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -258,7 +258,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Ari Dwi" class="w-32 h-32 object-cover rounded-full" />
+        <img src="{{ asset('assets/tim/Ari.png') }}" alt="Ari Dwi" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Ari Dwi <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
