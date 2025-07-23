@@ -81,7 +81,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/Willy.png') }}" alt="Willy Pratama" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/Willy 2.png') }}" alt="Willy Pratama" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Willy Pratama</h3>
         <div class="flex flex-col gap-2 mt-3">

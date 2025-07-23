@@ -1,7 +1,7 @@
 <div class="flex flex-wrap justify-between gap-2 px-4">
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/EBR07441_1.png') }}" alt="Lukmanul Hakim" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/Lukman.png') }}" alt="Lukmanul Hakim" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Lukmanul Hakim <br> (Sumatera)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -58,7 +58,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/IvanNalis.png') }}" alt="IVANNALIS SAPUTRA" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/IvanNalis 2.png') }}" alt="IVANNALIS SAPUTRA" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">IVANNALIS SAPUTRA <br> (Kalimantan)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -180,7 +180,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/Berlian.png') }}" alt="Berlian Pratama " class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/Berlian 2.png') }}" alt="Berlian Pratama " class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Berlian Pratama  <br> (Sumatera)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -258,7 +258,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/Ari.png') }}" alt="Ari Dwi" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/Hari.png') }}" alt="Ari Dwi" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase">Ari Dwi <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -297,7 +297,7 @@
         </div>
     </div>
 
-    <!-- Card 1 -->
+    {{-- <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
         <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Paul Colin Pasaribu" class="w-32 h-32 object-cover rounded-full" />
         <div>
@@ -316,7 +316,7 @@
             </div>
         </div>
         </div>
-    </div>
+    </div> --}}
 
 
 
@@ -324,7 +324,7 @@
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
         <img src="{{ asset('assets/tim/Yoram.png') }}" alt="Yoram Dwaa" class="w-32 h-32 object-cover object-top  rounded-full bg-tim" />
         <div>
-        <h3 class="font-semibold text-sm uppercase">Yoram Dwaa <br> (Papua)</h3>
+        <h3 class="font-semibold text-sm uppercase">&dagger; Yoram Dwaa <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
             <div class="flex gap-2">
 
@@ -343,7 +343,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/hendrik.png') }}" alt="Hendrikus Randongkir" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/hendrik 2.png') }}" alt="Hendrikus Randongkir" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase text-nowrap">Hendrikus Randongkir <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">
@@ -363,7 +363,7 @@
 
     <!-- Card 1 -->
     <div class="flex  sm:items-start items-center  gap-4 mt-12 sm:w-[30%] w-full">
-        <img src="{{ asset('assets/tim/BATA.png') }}" alt="Sabatha Rumadas" class="w-32 h-32 object-cover rounded-full bg-tim" />
+        <img src="{{ asset('assets/tim/Efren.png') }}" alt="Sabatha Rumadas" class="w-32 h-32 object-cover rounded-full bg-tim" />
         <div>
         <h3 class="font-semibold text-sm uppercase text-nowrap">Sabatha Rumadas <br> (Papua)</h3>
         <div class="flex flex-col gap-2 mt-3">

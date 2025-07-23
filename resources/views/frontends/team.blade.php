@@ -16,12 +16,12 @@
             <!-- Card 1 -->
             <div class="flex sm:flex-row flex-col sm:items-start items-center  gap-6 mt-12 sm:w-[48%] w-full">
                 <img
-                src="{{ asset('assets/tim/TimerManurung.png') }}"
+                src="{{ asset('assets/tim/Timer.png') }}"
                 alt="TIMER MANURUNG"
                 class="w-52 h-52 object-cover rounded-full bg-tim"
                 />
                 <div>
-                <h3 class="font-semibold text-sm uppercase">TIMER MANURUNG (Koordinator Umum)</h3>
+                <h3 class="font-semibold text-sm uppercase">TIMER MANURUNG <br>({{__('Koordinator Umum') }})</h3>
                 <div class="flex flex-col gap-2 mt-3">
                     <div class="flex gap-2">
                         <a x-data x-tooltip.raw="Landy - Collection 1" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
@@ -44,7 +44,7 @@
                 class="w-52 h-52 object-cover rounded-full bg-tim object-top"
                 />
                 <div>
-                <h3 class="font-semibold text-sm uppercase">DEDY SUKMARA <br> (Koordinator Teknis)</h3>
+                <h3 class="font-semibold text-sm uppercase">DEDY SUKMARA <br> ({{__('Koordinator Teknis') }})</h3>
                 <div class="flex flex-col gap-2 mt-3">
                     <div class="flex gap-2">
                         <a x-data x-tooltip.raw="Landy - Collection 1" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
@@ -67,7 +67,7 @@
                 class="w-52 h-52 object-cover rounded-full bg-tim"
                 />
                 <div>
-                <h3 class="font-semibold text-sm uppercase">AGE KRIDALAKSANA (Koordinator Teknis)</h3>
+                <h3 class="font-semibold text-sm uppercase">AGE KRIDALAKSANA <br>({{__('Koordinator Teknis') }})</h3>
                 <div class="flex flex-col gap-2 mt-3">
                     <div class="flex gap-2">
                         <a x-data x-tooltip.raw="Landy - Collection 1" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
