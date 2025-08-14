@@ -40,12 +40,19 @@
             </div>
             <div class="flex flex-col sm:w-[27%] w-full">
                 <div>
-                    <img src="https://images.unsplash.com/photo-1632789124528-07b43ba96460?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
+                    <img src="https://landy.mapbiomas.id/storage/files/photos/pLrDqTjBhcfRxvPPhc5dF0jfPNUGUiPqgeCFXrpJ.jpg" alt="Mapbiomas Indonesia" class="h-44 w-full object-cover object-center">
 
                 </div>
-                <a class="font-light text-sm mt-4">{{__('Juni') }} 2024</a>
-                <a href="#" class="font-bold">{{__('Mapbiomas Alerta: Pelatihan validasi alert deforestasi') }}</a>
-                <p class="mt-3 font-light text-sm">{{__('MapBiomas Indonesia melatih 10 calon validator yang diproyeksikan memvalidasi setiap alert deforestasi pada 2024 di Indonesia.') }}</p>
+                <a class="font-light text-sm mt-4">April 2024</a>
+                    @if (app()->getLocale() == 'id')
+                        <a href="https://landy.mapbiomas.id/id/news/8/belajar-mapbiomas-alerta-di-brasil" class="font-bold">Belajar MapBiomas Alerta di Brasil</a>
+                        <p class="mt-3 font-light text-sm">Kunjungan ke São Paulo, Brazil, ini untuk mempelajari MapBiomas Alerta, sebuah platform pemantauan deforestasi di Brazil, sebagai referensi mengembangkan platform sejenis di Indonesia.</p>
+
+                    @else
+                        <a href="https://landy.mapbiomas.id/en/news/8/belajar-mapbiomas-alerta-di-brasil" class="font-bold">Learning Brazil’s MapBiomas Alerta</a>
+                        <p class="mt-3 font-light text-sm">The São Paulo, Brazil, trip was designed to learn MapBiomas Alerta, a deforestation monitoring platform in Brazil, as an effort to develop a similar platform in Indonesia.</p>
+
+                    @endif
             </div>
 
 
