@@ -28,6 +28,8 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a class="h-4 w-4 rounded-full border border-landy"></a>
+
             </div>
             <div class="flex gap-2">
                 <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
@@ -48,6 +50,7 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
             </div>
             <div class="flex gap-2">
                 <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
@@ -70,6 +73,7 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a class="h-4 w-4 rounded-full border border-landy"></a>
+                <a class="h-4 w-4 rounded-full border border-landy"></a>
             </div>
             <div class="flex gap-2">
                 <a class="h-4 w-4 rounded-full border border-fire"></a>
@@ -87,6 +91,7 @@
         <div class="flex flex-col gap-2 mt-3">
             <div class="flex gap-2">
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a class="h-4 w-4 rounded-full border border-landy"></a>
                 <a class="h-4 w-4 rounded-full border border-landy"></a>
                 <a class="h-4 w-4 rounded-full border border-landy"></a>
             </div>
@@ -108,6 +113,7 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
             </div>
             <div class="flex gap-2">
                 <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
@@ -127,6 +133,7 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
             </div>
             <div class="flex gap-2">
                 <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
@@ -146,6 +153,8 @@
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a  class="h-4 w-4 rounded-full border border-landy"></a>
+
             </div>
             <div class="flex gap-2">
                 <a  class="h-4 w-4 rounded-full border border-fire"></a>
@@ -165,6 +174,7 @@
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
             </div>
             <div class="flex gap-2">
                 <a x-data x-tooltip.raw="Fire - Collection 1" class="h-4 w-4 rounded-full bg-fire cursor-pointer"></a>
@@ -181,6 +191,7 @@
         <h3 class="font-semibold text-sm uppercase sm:text-nowrap text-wrap">Sesilia Maharani Putri</h3>
         <div class="flex flex-col gap-2 mt-3">
             <div class="flex gap-2">
+                <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
@@ -203,6 +214,7 @@
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a x-data x-tooltip.raw="Fire - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Fire - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
 
             </div>
             <div class="flex gap-2">
@@ -223,6 +235,7 @@
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
 
             </div>
             <div class="flex gap-2">
@@ -243,6 +256,7 @@
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
 
             </div>
             <div class="flex gap-2">
@@ -263,6 +277,7 @@
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
 
             </div>
             <div class="flex gap-2">
@@ -283,6 +298,7 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 2" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a x-data x-tooltip.raw="Landy - Collection 3" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
+                <a x-data x-tooltip.raw="Landy - Collection 4" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
 
             </div>
             <div class="flex gap-2">
@@ -303,6 +319,8 @@
                 <a x-data x-tooltip.raw="Landy - Collection 1" class="h-4 w-4 rounded-full bg-landy cursor-pointer"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
                 <a  class="h-4 w-4 rounded-full border border-landy"></a>
+                <a  class="h-4 w-4 rounded-full border border-landy"></a>
+
 
             </div>
             <div class="flex gap-2">

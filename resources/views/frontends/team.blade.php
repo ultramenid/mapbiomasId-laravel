@@ -27,6 +27,7 @@
                         <a x-data x-tooltip.raw="Landy - Collection 1" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
                         <a x-data x-tooltip.raw="Landy - Collection 2" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
                         <a x-data x-tooltip.raw="Landy - Collection 3" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
+                        <a x-data x-tooltip.raw="Landy - Collection 4" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
 
                     </div>
                     <div class="flex gap-2">
@@ -50,6 +51,7 @@
                         <a x-data x-tooltip.raw="Landy - Collection 1" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
                         <a x-data x-tooltip.raw="Landy - Collection 2" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
                         <a x-data x-tooltip.raw="Landy - Collection 3" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
+                        <a x-data x-tooltip.raw="Landy - Collection 4" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
 
                     </div>
                     <div class="flex gap-2">
@@ -73,6 +75,7 @@
                         <a x-data x-tooltip.raw="Landy - Collection 1" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
                         <a x-data x-tooltip.raw="Landy - Collection 2" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
                         <a x-data x-tooltip.raw="Landy - Collection 3" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
+                        <a x-data x-tooltip.raw="Landy - Collection 4" class="h-6 w-6 rounded-full bg-landy cursor-pointer"></a>
 
                     </div>
                     <div class="flex gap-2">
