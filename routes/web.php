@@ -51,10 +51,4 @@ Route::get('/cms/logout', function () {
     return redirect('/cms/login');
 });
 
-Route::domain('plataforma.landy.mapbiomas.id')->group(function () {
-    Route::get('/{any?}', function ($any = null) {
-        return redirect()->away(
-            "https://plataforma.mapbiomas.org/coverage/coverage_lclu?t[regionKey]=indonesia"
-        );
-    })->where('any', '.*');
-});
+
