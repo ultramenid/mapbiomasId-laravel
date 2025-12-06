@@ -84,10 +84,10 @@
                 <p class=" mt-4 text-sm text-center font-light">{{__('Menyajikan data dan peta area terbakar di Indonesia melalui pemaksimalkan Google Earth Engine dan pendekatan deep learning terhadap citra satelit yang terbuka bagi publik.') }}</p>
             </div>
             <div class="flex flex-col sm:w-[27%] w-full items-center">
-                <div>
+                <a href="https://plataforma.alerta.mapbiomas.id/" target="_blank">
                     <img src="{{ asset('assets/logo-alerta.png') }}" alt="Mapbiomas Indonesia" class="h-12">
 
-                </div>
+                </a>
                 <p class=" mt-4 text-sm text-center font-light">{{__('Setiap alert deforestasi diverifikasi, lalu divalidasi citra satelit resolusi tinggi terkini, sehingga tersaji data dan peta deforestasi aktual.') }}</p>
             </div>
 
